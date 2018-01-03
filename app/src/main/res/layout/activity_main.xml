@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nikos.helloandroid.MainActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearlayout_texts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:background="@drawable/back"
+        android:paddingTop="@dimen/screen_margin"
+        >
+
+        <TextView
+            android:id="@+id/text_good_things"
+            style="@style/BasicTextStyle"
+            android:text="@string/text_good_things" />
+
+        <TextView
+            android:id="@+id/text_wait"
+            style="@style/TitleTextStyle.Textview_Wait"
+            android:text="@string/text_wait" />
+
+        <TextView
+            android:id="@+id/text_better_things"
+            style="@style/BasicTextStyle"
+            android:text="@string/text_better_things"
+            />
+
+        <TextView
+            android:id="@+id/text_to_those_who"
+            style="@style/BasicTextStyle"
+            android:text="@string/text_those_who"
+            />
+
+        <LinearLayout
+            android:id="@+id/linearlayout_work_for_it"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/text_work"
+                style="@style/TitleTextStyle.Textview_Work"
+                android:text="@string/text_work"
+                />
+
+            <TextView
+                android:id="@+id/text_for"
+                style="@style/TitleTextStyle.Textview_For"
+                android:text="@string/text_for"
+                />
+
+            <TextView
+                android:id="@+id/text_it"
+                style="@style/TitleTextStyle.Textview_It"
+                android:text="@string/text_it"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/keyboardnew"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_udacity_details"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@drawable/udacitybackground"
+        android:paddingBottom="@dimen/screen_margin"
+        >
+
+        <TextView
+            android:id="@+id/text_udacity"
+            style="@style/TitleTextStyle.Textview_Udacity"
+            android:text="@string/text_udacity"
+            />
+
+        <TextView
+            android:id="@+id/text_address"
+            style="@style/BasicTextStyle.Address"
+            android:text="@string/text_address"
+            />
+
+        <LinearLayout
+            android:id="@+id/linearlayout_phone_site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/text_phone"
+                style="@style/BasicTextStyle.Phone"
+                android:text="@string/text_phone"
+                />
+
+            <TextView
+                android:id="@+id/text_site"
+                style="@style/BasicTextStyle.Site"
+                android:text="@string/text_site"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

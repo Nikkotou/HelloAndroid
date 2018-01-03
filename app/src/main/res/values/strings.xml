@@ -1,0 +1,30 @@
+<resources>
+    <!-- Portrait text views  -->
+    <string name="app_name">HelloAndroid</string>
+    <string name="text_good_things">Good things come to those who</string>
+    <string name="text_wait">w a i t</string>
+    <string name="text_better_things">But better things come</string>
+    <string name="text_those_who">to those who</string>
+    <string name="text_for">For</string>
+    <string name="text_work">Work</string>
+    <string name="text_it">It</string>
+    <string name="text_udacity">Udacity</string>
+    <string name="text_address">2465 Latham St, Mountain View, CA 94043</string>
+    <string name="text_phone">650-555-5555</string>
+    <string name="text_site">www.udacity.com</string>
+
+    <!-- Landscape text views  -->
+    <string name="text_good_things_landscape">Good things come to those </string>
+    <string name="text_who_landscape">who</string>
+    <string name="text_wait_landscape">wait</string>
+    <string name="text_better_things_landscape">But better things come</string>
+    <string name="text_to_those_who_landscape">to those who</string>
+    <string name="text_work_landscape">Work</string>
+    <string name="text_for_landscape">For</string>
+    <string name="text_it_landscape">It</string>
+    <string name="text_udacity_landscape">Udacity</string>
+    <string name="text_address_landscape">2465 Latham St, Mountain View, CA 94043</string>
+    <string name="text_phone_landscape">650-555-5555</string>
+    <string name="text_site_landscape">www.udacity.com</string>
+
+</resources>

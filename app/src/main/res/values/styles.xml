@@ -1,0 +1,158 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Portrait version styles -->
+    <style name="BasicTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/TextViews_default_textcolor</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/coming_soon</item>
+    </style>
+
+    <style name="BasicTextStyle.Address">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/TextView_udacity_textcolor</item>
+    </style>
+
+    <style name="BasicTextStyle.Phone">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:autoLink">phone</item>
+        <item name="android:textColorLink">@color/TextView_clickable</item>
+        <item name="android:textColor">@color/TextView_udacity_textcolor</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="BasicTextStyle.Site">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:autoLink">web</item>
+        <item name="android:textColorLink">@color/TextView_clickable</item>
+        <item name="android:textColor">@color/TextView_udacity_textcolor</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="TitleTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/big_text_size</item>
+        <item name="android:fontFamily">@font/rubik_mono_one</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TitleTextStyle.Textview_Wait">
+        <item name="android:textColor">@color/TextView_wait_textcolor</item>
+    </style>
+
+    <style name="TitleTextStyle.Textview_Work">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textColor">@color/TextView_work_textcolor</item>
+    </style>
+
+    <style name="TitleTextStyle.Textview_For">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/TextView_for_textcolor</item>
+    </style>
+
+    <style name="TitleTextStyle.Textview_It">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textColor">@color/TextView_it_textcolor</item>
+    </style>
+
+    <style name="TitleTextStyle.Textview_Udacity">
+        <item name="android:textColor">@color/TextView_udacity_textcolor</item>
+    </style>
+
+    <!-- Landscape version styles -->
+    <style name="BasicTextStyle_Landscape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/TextViews_default_textcolor</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/coming_soon</item>
+    </style>
+
+    <style name="BasicTextStyle_Landscape.TextView_who">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="BasicTextStyle_Landscape.Address">
+        <item name="android:layout_weight">2</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/TextView_udacity_textcolor</item>
+    </style>
+
+    <style name="BasicTextStyle_Landscape.Phone">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/TextView_udacity_textcolor</item>
+        <item name="android:autoLink">phone</item>
+        <item name="android:textColorLink">@color/TextView_clickable</item>
+    </style>
+
+    <style name="BasicTextStyle_Landscape.Site">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/TextView_udacity_textcolor</item>
+        <item name="android:autoLink">web</item>
+        <item name="android:textColorLink">@color/TextView_clickable</item>
+    </style>
+
+    <style name="TitleTextStyle_Landscape">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/big_text_size</item>
+        <item name="android:fontFamily">@font/rubik_mono_one</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TitleTextStyle_Landscape.Textview_wait">
+        <item name="android:layout_weight">2</item>
+        <item name="android:textColor">@color/TextView_wait_textcolor</item>
+    </style>
+
+    <style name="TitleTextStyle_Landscape.Textview_work">
+        <item name="android:layout_weight">3</item>
+        <item name="android:textColor">@color/TextView_work_textcolor</item>
+    </style>
+
+    <style name="TitleTextStyle_Landscape.Textview_for">
+        <item name="android:layout_weight">2</item>
+        <item name="android:textColor">@color/TextView_for_textcolor</item>
+    </style>
+
+    <style name="TitleTextStyle_Landscape.Textview_it">
+        <item name="android:layout_weight">2</item>
+        <item name="android:textColor">@color/TextView_it_textcolor</item>
+    </style>
+
+    <style name="TitleTextStyle_Landscape.Textview_Udacity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:textColor">@color/TextView_udacity_textcolor</item>
+    </style>
+
+
+</resources>
+

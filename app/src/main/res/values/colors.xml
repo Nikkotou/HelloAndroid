@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="TextViews_default_textcolor">#000000</color>
+    <color name="TextView_wait_textcolor">#FF9800</color>
+    <color name="TextView_work_textcolor">#1B5E20</color>
+    <color name="TextView_for_textcolor">#D500F9</color>
+    <color name="TextView_it_textcolor">#01579B</color>
+    <color name="TextView_udacity_textcolor">#795548</color>
+    <color name="TextView_clickable">#2962FF</color>
+
+
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.nikos.helloandroid.MainActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearlayout_texts_landscape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_statement"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:paddingTop="@dimen/screen_margin"
+            android:background="@drawable/back"
+            >
+
+            <TextView
+                android:id="@+id/text_good_things_landscape"
+                style="@style/BasicTextStyle_Landscape"
+                android:text="@string/text_good_things_landscape"
+                />
+
+            <LinearLayout
+                android:id="@+id/linearlayout_who_wait_landscape"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/text_who_landscape"
+                    style="@style/BasicTextStyle_Landscape.TextView_who"
+                    android:text="@string/text_who_landscape"
+                    />
+
+                <TextView
+                    android:id="@+id/text_wait"
+                    style="@style/TitleTextStyle_Landscape.Textview_wait"
+                    android:text="@string/text_wait_landscape"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_better_things_landscape"
+                style="@style/BasicTextStyle_Landscape"
+                android:text="@string/text_better_things_landscape"
+                />
+
+            <TextView
+                android:id="@+id/text_to_those_who_landscape"
+                style="@style/BasicTextStyle_Landscape"
+                android:text="@string/text_to_those_who_landscape"
+                />
+
+            <LinearLayout
+                android:id="@+id/linearlayout_workforit_landscape"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/text_work_landscape"
+                    style="@style/TitleTextStyle_Landscape.Textview_work"
+                    android:text="@string/text_work_landscape"
+                    />
+
+                <TextView
+                    android:id="@+id/text_for_landscape"
+                    style="@style/TitleTextStyle_Landscape.Textview_for"
+                    android:text="@string/text_for_landscape"
+                    />
+
+                <TextView
+                    android:id="@+id/text_it_landscape"
+                    style="@style/TitleTextStyle_Landscape.Textview_it"
+                    android:text="@string/text_it_landscape"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/udacitybackground"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/text_udacity_landscape"
+                style="@style/TitleTextStyle_Landscape.Textview_Udacity"
+                android:text="@string/text_udacity_landscape"
+                />
+
+            <TextView
+                android:id="@+id/text_address_landscape"
+                style="@style/BasicTextStyle_Landscape.Address"
+                android:text="@string/text_address"
+                />
+
+            <TextView
+                android:id="@+id/text_phone_landscape"
+                style="@style/BasicTextStyle_Landscape.Phone"
+                android:text="@string/text_phone_landscape"
+                />
+
+            <TextView
+                android:id="@+id/text_site_landscape"
+                style="@style/BasicTextStyle_Landscape.Site"
+                android:text="@string/text_site_landscape"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/keyboardnew"
+        />
+</LinearLayout>
+

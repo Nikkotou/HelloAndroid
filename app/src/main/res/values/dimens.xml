@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- The top and bottom margin of first and last text view  -->
+    <dimen name="screen_margin">8dp</dimen>
+
+    <!-- The top margin of Udacity text view  -->
+    <dimen name="top_udacity_margin">10dp</dimen>
+
+    <!-- Small text size -->
+    <dimen name="small_text_size">15sp</dimen>
+
+    <!-- Medium text size -->
+    <dimen name="medium_text_size">20sp</dimen>
+
+    <!-- Small text size -->
+    <dimen name="big_text_size">30sp</dimen>
+
+    <dimen name="left_margin">8dp</dimen>
+</resources>
